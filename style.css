@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+}
+ul{
+    display: flex;
+    gap: 20px;
+   
+}
+li{
+    list-style: none;
+}
+li >a{
+    text-decoration: none;
+    color: black;
+}
+.cta-btn{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+
+}
+.cta-btn>a{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+}
+.h2{                    
+    font-size: 24px;
+    color: black;
+    font-family: Open Sans;
+}
+.text_rotate{
+    transform:rotate(-90deg);
+}
+.skills{
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.skills p{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+    
